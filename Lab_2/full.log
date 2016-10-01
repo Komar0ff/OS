@@ -1,0 +1,155 @@
+	Warning:  warning, (EE) error, (NI) not implemented, (??) unknown.
+[    15.134] Warning:  The directory "/usr/share/fonts/Type1/" does not exist.
+[    15.134] Warning:  `fonts.dir' not found (or not valid) in "/usr/share/fonts/100dpi/".
+[    15.134] Warning:  `fonts.dir' not found (or not valid) in "/usr/share/fonts/75dpi/".
+[    15.140] Warning:  Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[    15.384] Warning:  Warning, couldn't open module nouveau
+[    15.385] Warning:  Warning, couldn't open module nv
+[    15.394] Warning:  Warning, couldn't open module fbdev
+[    15.395] Warning:  Warning, couldn't open module vesa
+[    15.398] Warning:  Falling back to old probe method for modesetting
+	(++) from command line, (!!) notice, Information:  informational,
+[    15.134] Information:  The server relies on udev to provide the list of input devices.
+[    15.134] Information:  Loader magic: 0x821d40
+[    15.134] Information:  Module ABI versions:
+[    15.136] Information:  systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    15.137] Information:  xfree86: Adding drm device (/dev/dri/card0)
+[    15.137] Information:  xfree86: Adding drm device (/dev/dri/card1)
+[    15.147] Information:  LoadModule: "glx"
+[    15.156] Information:  Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    15.315] Information:  Module glx: vendor="X.Org Foundation"
+[    15.316] Information:  LoadModule: "intel"
+[    15.330] Information:  Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[    15.383] Information:  Module intel: vendor="X.Org Foundation"
+[    15.383] Information:  LoadModule: "nouveau"
+[    15.385] Information:  UnloadModule: "nouveau"
+[    15.385] Information:  Unloading nouveau
+[    15.385] Information:  LoadModule: "nv"
+[    15.385] Information:  UnloadModule: "nv"
+[    15.385] Information:  Unloading nv
+[    15.385] Information:  LoadModule: "modesetting"
+[    15.385] Information:  Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    15.394] Information:  Module modesetting: vendor="X.Org Foundation"
+[    15.394] Information:  LoadModule: "fbdev"
+[    15.394] Information:  UnloadModule: "fbdev"
+[    15.394] Information:  Unloading fbdev
+[    15.395] Information:  LoadModule: "vesa"
+[    15.395] Information:  UnloadModule: "vesa"
+[    15.395] Information:  Unloading vesa
+[    15.395] Information:  intel: Driver for Intel(R) Integrated Graphics Chipsets:
+[    15.396] Information:  intel: Driver for Intel(R) HD Graphics: 2000-6000
+[    15.396] Information:  intel: Driver for Intel(R) Iris(TM) Graphics: 5100, 6100
+[    15.396] Information:  intel: Driver for Intel(R) Iris(TM) Pro Graphics: 5200, 6200, P6300
+[    15.396] Information:  modesetting: Driver for Modesetting Kernel Drivers: kms
+[    15.397] Information:  intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 20160425
+[    15.397] Information:  intel(0): SNA compiled from 2.99.917-708-g8f33f80
+[    15.399] Information:  intel(0): Creating default Display subsection in Screen section
+[    15.400] Information:  intel(0): Output LVDS1 has no monitor section
+[    15.420] Information:  intel(0): Enabled output LVDS1
+[    15.420] Information:  intel(0): Output VGA1 has no monitor section
+[    15.420] Information:  intel(0): Enabled output VGA1
+[    15.420] Information:  intel(0): Output HDMI1 has no monitor section
+[    15.420] Information:  intel(0): Enabled output HDMI1
+[    15.420] Information:  intel(0): Output DP1 has no monitor section
+[    15.420] Information:  intel(0): Enabled output DP1
+[    15.421] Information:  intel(0): Output VIRTUAL1 has no monitor section
+[    15.421] Information:  intel(0): Enabled output VIRTUAL1
+[    15.421] Information:  Loading sub module "dri3"
+[    15.421] Information:  LoadModule: "dri3"
+[    15.421] Information:  Module "dri3" already built-in
+[    15.421] Information:  Loading sub module "dri2"
+[    15.421] Information:  LoadModule: "dri2"
+[    15.421] Information:  Module "dri2" already built-in
+[    15.421] Information:  Loading sub module "present"
+[    15.421] Information:  LoadModule: "present"
+[    15.421] Information:  Module "present" already built-in
+[    15.448] Information:  intel(0): SNA initialized with Ivybridge (gen7, gt2) backend
+[    15.449] Information:  intel(0): HW Cursor enabled
+[    15.449] Information:  intel(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[    15.450] Information:  intel(0): [DRI2] Setup complete
+[    15.450] Information:  intel(0): [DRI2]   DRI driver: i965
+[    15.450] Information:  intel(0): [DRI2]   VDPAU driver: va_gl
+[    15.450] Information:  intel(0): direct rendering: DRI2 DRI3 enabled
+[    15.450] Information:  intel(0): hardware support for Present enabled
+[    15.601] Information:  AIGLX: enabled GLX_MESA_copy_sub_buffer
+[    15.601] Information:  AIGLX: enabled GLX_ARB_create_context
+[    15.601] Information:  AIGLX: enabled GLX_ARB_create_context_profile
+[    15.601] Information:  AIGLX: enabled GLX_EXT_create_context_es{,2}_profile
+[    15.601] Information:  AIGLX: enabled GLX_INTEL_swap_event
+[    15.601] Information:  AIGLX: enabled GLX_SGI_swap_control and GLX_MESA_swap_control
+[    15.601] Information:  AIGLX: enabled GLX_EXT_framebuffer_sRGB
+[    15.601] Information:  AIGLX: enabled GLX_ARB_fbconfig_float
+[    15.601] Information:  AIGLX: enabled GLX_EXT_fbconfig_packed_float
+[    15.601] Information:  AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+[    15.601] Information:  AIGLX: enabled GLX_ARB_create_context_robustness
+[    15.601] Information:  AIGLX: Loaded and initialized i965
+[    15.601] Information:  GLX: Initialized DRI2 GL provider for screen 0
+[    15.612] Information:  intel(0): switch to mode 1366x768@60.0 on LVDS1 using pipe 0, position (0, 0), rotation normal, reflection none
+[    15.612] Information:  intel(0): Setting screen physical size to 361 x 203
+[    15.947] Information:  config/udev: Adding input device Power Button (/dev/input/event2)
+[    15.947] Information:  LoadModule: "evdev"
+[    15.947] Information:  Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    15.975] Information:  Module evdev: vendor="X.Org Foundation"
+[    15.975] Information:  Using input driver 'evdev' for 'Power Button'
+[    15.975] Information:  evdev: Power Button: Configuring as keyboard
+[    15.975] Information:  XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    16.049] Information:  config/udev: Adding input device Asus Wireless Radio Control (/dev/input/event4)
+[    16.049] Information:  Using input driver 'evdev' for 'Asus Wireless Radio Control'
+[    16.049] Information:  evdev: Asus Wireless Radio Control: Configuring as keyboard
+[    16.049] Information:  XINPUT: Adding extended input device "Asus Wireless Radio Control" (type: KEYBOARD, id 7)
+[    16.051] Information:  config/udev: Adding input device Video Bus (/dev/input/event7)
+[    16.051] Information:  Using input driver 'evdev' for 'Video Bus'
+[    16.051] Information:  evdev: Video Bus: Configuring as keyboard
+[    16.051] Information:  XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    16.053] Information:  config/udev: Adding input device Video Bus (/dev/input/event6)
+[    16.053] Information:  Using input driver 'evdev' for 'Video Bus'
+[    16.053] Information:  evdev: Video Bus: Configuring as keyboard
+[    16.053] Information:  XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 9)
+[    16.054] Information:  config/udev: Adding input device Lid Switch (/dev/input/event0)
+[    16.054] Information:  No input driver specified, ignoring this device.
+[    16.054] Information:  This device may have been added with another device file.
+[    16.055] Information:  config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    16.055] Information:  Using input driver 'evdev' for 'Sleep Button'
+[    16.055] Information:  evdev: Sleep Button: Configuring as keyboard
+[    16.056] Information:  XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 10)
+[    16.058] Information:  config/udev: Adding input device OM (/dev/input/event10)
+[    16.058] Information:  Using input driver 'evdev' for 'OM'
+[    16.059] Information:  evdev: OM: Configuring as mouse
+[    16.059] Information:  evdev: OM: Adding scrollwheel support
+[    16.059] Information:  XINPUT: Adding extended input device "OM" (type: MOUSE, id 11)
+[    16.059] Information:  evdev: OM: initialized for relative axes.
+[    16.060] Information:  config/udev: Adding input device OM (/dev/input/mouse1)
+[    16.060] Information:  No input driver specified, ignoring this device.
+[    16.060] Information:  This device may have been added with another device file.
+[    16.061] Information:  config/udev: Adding input device USB2.0 HD UVC WebCam (/dev/input/event13)
+[    16.061] Information:  Using input driver 'evdev' for 'USB2.0 HD UVC WebCam'
+[    16.062] Information:  evdev: USB2.0 HD UVC WebCam: Configuring as keyboard
+[    16.062] Information:  XINPUT: Adding extended input device "USB2.0 HD UVC WebCam" (type: KEYBOARD, id 12)
+[    16.063] Information:  config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event11)
+[    16.063] Information:  No input driver specified, ignoring this device.
+[    16.063] Information:  This device may have been added with another device file.
+[    16.064] Information:  config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event12)
+[    16.064] Information:  No input driver specified, ignoring this device.
+[    16.064] Information:  This device may have been added with another device file.
+[    16.064] Information:  config/udev: Adding input device Asus WMI hotkeys (/dev/input/event8)
+[    16.064] Information:  Using input driver 'evdev' for 'Asus WMI hotkeys'
+[    16.065] Information:  evdev: Asus WMI hotkeys: Configuring as keyboard
+[    16.065] Information:  XINPUT: Adding extended input device "Asus WMI hotkeys" (type: KEYBOARD, id 13)
+[    16.066] Information:  config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[    16.066] Information:  Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    16.066] Information:  evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[    16.066] Information:  XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 14)
+[    16.067] Information:  config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/event9)
+[    16.068] Information:  LoadModule: "synaptics"
+[    16.068] Information:  Loading /usr/lib/xorg/modules/input/synaptics_drv.so
+[    16.079] Information:  Module synaptics: vendor="X.Org Foundation"
+[    16.079] Information:  Using input driver 'synaptics' for 'ETPS/2 Elantech Touchpad'
+[    16.107] Information:  synaptics: ETPS/2 Elantech Touchpad: found clickpad property
+[    16.133] Information:  XINPUT: Adding extended input device "ETPS/2 Elantech Touchpad" (type: TOUCHPAD, id 15)
+[    16.135] Information:  config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/mouse0)
+[    16.136] Information:  config/udev: Adding input device PC Speaker (/dev/input/event5)
+[    16.136] Information:  No input driver specified, ignoring this device.
+[    16.136] Information:  This device may have been added with another device file.
+[    17.421] Information:  intel(0): EDID vendor "AUO", prod id 18156
+[    17.421] Information:  intel(0): Printing DDC gathered Modelines:
+[    17.421] Information:  intel(0): Modeline "1366x768"x0.0   69.30  1366 1374 1384 1462  768 771 772 790 -hsync -vsync (47.4 kHz eP)
