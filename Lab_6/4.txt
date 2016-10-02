@@ -1,0 +1,4 @@
+task 4
+
+driverquery /FO TABLE > drivers.txt
+sort /r drivers.txt

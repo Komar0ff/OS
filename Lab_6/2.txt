@@ -1,0 +1,16 @@
+task 2
+
+call copy.bat
+	copy "C:\Really big file.txt" C:\Users\Smile\AppData\Local
+type con > task.bat 	
+	for /f "tokens=2 delims=:" %%m in ('time /t') do set min=%%m
+	set /a min=%min%+1
+	for /f "tokens=1 delims=:" %%h in ('time /t') do set time = %%h:%min%:00
+	schtasks /create /tn copyBat /tr C:\Users\Smile\Desktop\OS\process\copy.bat /sc once /st %time%
+call task.bat
+tasklist /fi "imagename eq copy*"
+taskkill /fi "imagename eq copy*"
+fc "C:\Really big file.txt" "C:\Users\Smile\AppData\Local\Really big file.txt"
+
+
+

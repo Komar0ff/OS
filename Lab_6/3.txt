@@ -1,0 +1,12 @@
+task 3
+
+net start > net.txt
+call sc.bat
+	net stop "DNS-client" /y
+	ping 127.0.0.1 -n 6 > nul
+	net start > net2.txt
+	call comparator.bat
+		comparator.bat:
+			fc net2.txt net.txt > delta.txt
+	net start "DNS-client" 
+	

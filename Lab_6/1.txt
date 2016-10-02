@@ -1,0 +1,13 @@
+task 1
+
+mkdir LAB6
+ver > ver.txt
+mem > mem.txt
+wmic diskdrive > wmicdiskdrive.txt
+mkdir TEST
+copy ..\LAB6 TEST
+type *.txt > TEST\OneCommand.txt
+cd TEST
+rm ver.txt
+rm mem.txt
+rm wmicdiskdrive.txt
